@@ -65,3 +65,4 @@ displaySection = m => {
     menu[m].forEach(displayItem)
 };
 Object.keys(menu).forEach( displaySection);
+["apples", "banana", "cherry"].forEach((f, i, l)=>console.log(i, f, l.length));
